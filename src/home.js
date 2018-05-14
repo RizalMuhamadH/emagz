@@ -37,7 +37,7 @@ export default class Home extends Component {
     handlePress = async() =>{
         let param = new FormData();
         param.append('edition_id', '0');
-        await fetch('http://mobs.ayobandung.com/index.php/news_controller/getAllNews',{
+        await fetch('',{
             method: 'POST',
             body: param
         })
